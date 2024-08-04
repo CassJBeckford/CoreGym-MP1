@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:300');
+
+/*-------------------------- Colors */
+
+header{
+    background-color: #ffff48;
+}
+
+header a{
+    color: #45caff;
+}
+
+/*-------------------------- General styles */
+
+/*-------------------------- Header */
+
+header{
+    height: 120px;
+}
+
+header .row{
+    padding-top: 10px;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;  
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-right: 90px;
+}
+
+#nav-bar{
+    list-style-type: none;
+    font-size: 100%;
+    letter-spacing: 3px;
+}
+
+#nav-bar li{
+    float: left;
+    margin-left: 40px;
+}
+
+#logo{
+    font-size: 250%;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+#sign-up{
+    list-style-type: none;
+    font-size: 100%;
+    letter-spacing: 3px;
+    padding-left: 200px;
+    
+}
+
+
+
