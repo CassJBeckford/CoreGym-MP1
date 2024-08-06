@@ -12,6 +12,7 @@ header a{
 
 /*-------------------------- General styles */
 
+
 /*-------------------------- Header */
 
 header{
@@ -22,11 +23,21 @@ header .row{
     padding-top: 10px;
 }
 
+#logo:hover{
+    text-decoration: none;
+}
+
 h2{
     font-family: 'Oswald', sans-serif;  
     letter-spacing: 2px;
     text-transform: uppercase;
     padding-right: 90px;
+}
+
+#nav-bar, #logo, #sign-up{
+    line-height: 75px;
+    text-decoration: none;
+
 }
 
 #nav-bar{
@@ -40,10 +51,15 @@ h2{
     margin-left: 40px;
 }
 
+.col-5 h2{
+    text-align: center;
+}
+
 #logo{
     font-size: 250%;
-    text-align: center;
     letter-spacing: 4px;
+    padding-right: 150px;
+ 
 }
 
 #sign-up{
