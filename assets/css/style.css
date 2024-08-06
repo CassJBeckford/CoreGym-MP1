@@ -3,11 +3,11 @@
 /*-------------------------- Colors */
 
 header{
-    background-color: #ffff48;
+    background-color: #2a9bc8;
 }
 
 header a{
-    color: #45caff;
+    color: #ffff48;
 }
 
 /*-------------------------- General styles */
@@ -44,6 +44,7 @@ h2{
     list-style-type: none;
     font-size: 100%;
     letter-spacing: 3px;
+    margin-top: 5px;
 }
 
 #nav-bar li{
@@ -58,7 +59,7 @@ h2{
 #logo{
     font-size: 250%;
     letter-spacing: 4px;
-    padding-right: 150px;
+    padding-right: 100px;
  
 }
 
@@ -69,6 +70,15 @@ h2{
     padding-left: 200px;
     
 }
+
+/*-------------------------- Hero Image */
+
+#exercise-clip{
+    height: 100%;
+    object-fit: cover;
+}
+
+
 
 
 
