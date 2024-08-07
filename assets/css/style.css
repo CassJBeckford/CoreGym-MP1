@@ -81,10 +81,58 @@ h2{
 
 /*-------------------------- Hero Image */
 
+#hero-image {
+    position: relative;
+}
+
 #exercise-clip{
     height: 100%;
     object-fit: cover;
 }
+
+#hero-text2, #hero-text2 h1, #hero-text2 h3{
+    color: #ffff48;
+    text-align: center;
+    font-size: 240%;
+}
+
+
+#hero-text2 {
+   
+    font-family: Oswald;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    padding-top: 30px;
+    padding-left: 10px;
+    background-color:rgba(42, 155, 200, .7);
+    bottom: 30px;
+    right: 120px;
+    position: absolute;
+}
+
+#exercise-clip #hero-text1{
+    bottom: 100%;
+}
+
+#hero-text1, #hero-text1 a{
+    color: #ffff48;
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+#hero-text1 {
+    letter-spacing: 2px;
+    font-family: Oswald;
+    height: 50px;
+    width: 100%;
+    background-color:rgba(42, 155, 200, .7);
+    padding-top: 7px;
+    top: 0;
+    position: absolute;
+}
+
 
 
 
