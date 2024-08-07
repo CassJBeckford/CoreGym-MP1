@@ -133,6 +133,24 @@ h2{
     position: absolute;
 }
 
+/*-------------------------- About section */
+
+#about-main-text{
+    text-align: center;
+}
+
+.about-images {
+    width: 50%;
+    height: 50%;
+}
+
+#about-image-section1{
+    float: left;
+    
+}
+
+#about-image-section2
+
 
 
 
