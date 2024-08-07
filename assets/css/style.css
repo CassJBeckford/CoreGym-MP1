@@ -127,7 +127,7 @@ h2{
     font-family: Oswald;
     height: 50px;
     width: 100%;
-    background-color:rgba(42, 155, 200, .7);
+    background-color:rgba(255, 27, 107, .7);
     padding-top: 7px;
     top: 0;
     position: absolute;
@@ -136,20 +136,62 @@ h2{
 /*-------------------------- About section */
 
 #about-main-text{
-    text-align: center;
+    text-align:left;
+    padding-right: 50px;
+    padding-top: 200px;
+  
 }
 
 .about-images {
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
+    border-radius: 5px;
 }
 
-#about-image-section1{
+#about-image-section1, #about-image-section2{
+    padding-top: 80px;
+}
+
+#about-image-section1 .about-images{
     float: left;
-    
+    margin-right: 10px;
 }
 
-#about-image-section2
+#about-image-section2 .about-images{
+    float: right;
+    margin-left: 10px;
+}
+
+#about-image-1{
+    position: relative;
+    text-align: center;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.image-text1{
+    position: absolute;
+    padding-left: 3px;
+    padding-top: 55px;
+}
+
+#about-image-2{
+    position: relative;
+    text-align: center;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.image-text2{
+    position: absolute;
+    padding-left: 215px;
+    padding-top: 63px;
+  }
+
 
 
 
