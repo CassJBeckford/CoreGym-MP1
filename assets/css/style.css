@@ -10,6 +10,15 @@ header a{
     color: #ffff48;
 }
 
+#about-section{
+    background-color: #2a9bc8;
+    color: #ffff48;
+}
+
+hr{
+    background-color: #ffff48;
+}
+
 /*-------------------------- General styles */
 
 .nav-tabs{
@@ -96,7 +105,6 @@ h2{
     font-size: 240%;
 }
 
-
 #hero-text2 {
    
     font-family: Oswald;
@@ -136,16 +144,30 @@ h2{
 /*-------------------------- About section */
 
 #about-main-text{
-    text-align:left;
+    text-align:center;
     padding-right: 50px;
-    padding-top: 200px;
-  
+    padding-top: 250px;
+}
+
+.about-header{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 250%;
+}
+
+#about-section p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 115%;
 }
 
 .about-images {
     width: 60%;
-    height: 60%;
+    height: 60%; 
     border-radius: 5px;
+}
+
+#about-image-section2{
+    margin-bottom: 30px;
 }
 
 #about-image-section1, #about-image-section2{
@@ -154,43 +176,17 @@ h2{
 
 #about-image-section1 .about-images{
     float: left;
-    margin-right: 10px;
+    padding-right: 20px;
 }
 
 #about-image-section2 .about-images{
     float: right;
-    margin-left: 10px;
+    padding-left: 20px;
+
 }
 
-#about-image-1{
-    position: relative;
-    text-align: center;
-    color: #ffff;
-    text-transform: uppercase;
-    font-size: 40px;
-    letter-spacing: 3px;
-}
 
-.image-text1{
-    position: absolute;
-    padding-left: 3px;
-    padding-top: 55px;
-}
 
-#about-image-2{
-    position: relative;
-    text-align: center;
-    color: #ffff;
-    text-transform: uppercase;
-    font-size: 40px;
-    letter-spacing: 3px;
-}
-
-.image-text2{
-    position: absolute;
-    padding-left: 215px;
-    padding-top: 63px;
-  }
 
 
 
