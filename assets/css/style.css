@@ -12,6 +12,10 @@ header a{
 
 /*-------------------------- General styles */
 
+.nav-tabs{
+    border-bottom: none;
+}
+
 
 /*-------------------------- Header */
 
@@ -69,6 +73,10 @@ h2{
     letter-spacing: 3px;
     padding-left: 200px;
     
+}
+
+.dropdown:hover .dropdown-menu, .dropdown-item{
+    display:inline-block;
 }
 
 /*-------------------------- Hero Image */

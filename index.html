@@ -13,18 +13,26 @@
 <body>
     <header>
       <div class="row">
-        <ul id="nav-bar" class="col-4">
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Membership</a>
-            </li>
-            <li>
-              <a href="#">Contact Us</a>
-            </li>
-        </ul>
+        <ul id="nav-bar" class="col-4 nav nav-tabs">
 
+          <!--Code adjusted from bootstrap -->
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+              <i class="fa-solid fa-bars"></i> Menu</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">About</a>
+              <a class="dropdown-item" href="#">Membership</a>
+              <a class="dropdown-item" href="#">Gallery</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Contact Us</a>
+            </div>
+          </li>
+
+          <!--Code adjusted from bootstrap -->
+
+        </ul>
+        
         <a href="#" class="col-5 nav-link">
             <h2 id="logo">Core Gym <i class="fa-solid fa-dumbbell"></i></h2>
         </a>
