@@ -247,6 +247,18 @@ h2{
     color: rgba(42, 155, 200, .8);
 }
 
+.member-section{
+   padding-top: 60px;
+}
+
+.member-box{
+    border-color: white;
+    box-shadow: 5px 3px 10px rgba(42, 155, 200, .7);
+    height: 500px;
+    width: 300px;
+    margin-left: 70px;
+}
+
 
 
 
