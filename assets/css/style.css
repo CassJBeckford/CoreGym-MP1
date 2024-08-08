@@ -19,10 +19,20 @@ hr{
     background-color: #ffff48;
 }
 
+.box hr{
+    background-color: #2a9bc8;
+}
+
 /*-------------------------- General styles */
 
 .nav-tabs{
     border-bottom: none;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 250%;
 }
 
 
@@ -149,12 +159,6 @@ h2{
     padding-top: 250px;
 }
 
-.about-header{
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-size: 250%;
-}
-
 #about-section p{
     font-family: 'Roboto', sans-serif;
     font-size: 115%;
@@ -183,6 +187,64 @@ h2{
     float: right;
     padding-left: 20px;
 
+}
+
+/*-------------------------- Mmebership section */
+
+#membership-heading{
+    padding-top: 30px;
+    margin-left: 32%;
+    color:#2a9bc8;
+
+}
+
+.items {
+    margin-left: 10px;
+}
+
+.box {
+    border-color: white;
+    box-shadow: 5px 3px 10px rgba(42, 155, 200, .7);
+    padding: 10px 0 0 20px;
+    width: 700px; 
+    margin-top: 70px;
+    margin-left: 25%;
+   
+}
+  
+.email {
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+}
+
+.pic {
+   
+    color: #2a9bc8;
+    font-size: 40px;
+    margin-right: 20px;
+    
+}
+
+.text {
+    width: 300px;
+}
+   
+.header {
+    font-size: 150%;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #2a9bc8;
+}
+
+.sub-header {
+    font-size: 100%;
+    color: #ff1b6b;
+}
+
+.end-text {
+    font-size: 14px;
+    color: rgba(42, 155, 200, .8);
 }
 
 
