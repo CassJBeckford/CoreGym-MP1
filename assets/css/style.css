@@ -19,7 +19,7 @@ hr{
     background-color: #ffff48;
 }
 
-.box hr{
+#membership-container hr{
     background-color: #2a9bc8;
 }
 
@@ -272,7 +272,61 @@ h2{
     width: 300px;
 }
 
+.Enquire-1{
+    padding: 112px 0 0 88px;
+    
+}
 
+.Enquire-2{
+    padding: 55px 0 0 93px;
+}
+
+.Enquire-3{
+    padding-left: 95px;
+}
+
+.member-box button{
+    background-color: #ff1b6b;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.member-box button:hover{
+    background-color: rgba(255, 27, 107, .8);
+}
+
+.member-box button:active{
+    background-color: rgba(255, 27, 107, .6);
+}
+
+.membership-header{
+    color: #2a9bc8;
+    margin: 10px 0 0 10px;
+}
+
+.price{
+    padding: 10px 0px 10px 95px;
+    color: #2a9bc8;
+}
+
+.price span{
+    color:rgba(42, 155, 200, .5);
+}
+
+.member-box p{
+    padding-left: 10px;
+    color: #2a9bc8;
+}
 
 
 
