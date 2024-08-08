@@ -198,6 +198,22 @@ h2{
 
 }
 
+#membership-container .deals-box1{
+   display: flex;
+   justify-content: center;
+}
+
+#membership-container .deals-box2{
+    display: flex;
+    justify-content: center;
+ }
+
+.member-section .col{
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+
 .items {
     margin-left: 10px;
 }
@@ -208,8 +224,6 @@ h2{
     padding: 10px 0 0 20px;
     width: 700px; 
     margin-top: 70px;
-    margin-left: 25%;
-   
 }
   
 .email {
@@ -256,8 +270,9 @@ h2{
     box-shadow: 5px 3px 10px rgba(42, 155, 200, .7);
     height: 500px;
     width: 300px;
-    margin-left: 70px;
 }
+
+
 
 
 
