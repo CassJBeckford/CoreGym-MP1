@@ -359,10 +359,18 @@ section #member-header-container{
 }
 
 #gallery-header{
-    padding-top: 50px;
+    padding: 50px 0 50px 0;
+
 }
 
+.photos {
+    column-count: 3;
+    column-gap: 0;
+}
 
+#gallery img{
+    width: 100%;
+}
 
 
 
