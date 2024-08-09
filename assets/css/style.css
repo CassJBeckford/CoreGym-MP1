@@ -42,8 +42,14 @@ header{
     height: 120px;
 }
 
+#header-section .col{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 header .row{
     padding-top: 10px;
+    
 }
 
 #logo:hover{
@@ -54,7 +60,7 @@ h2{
     font-family: 'Oswald', sans-serif;  
     letter-spacing: 2px;
     text-transform: uppercase;
-    padding-right: 90px;
+   
 }
 
 #nav-bar, #logo, #sign-up{
@@ -70,32 +76,29 @@ h2{
     margin-top: 5px;
 }
 
-#nav-bar li{
-    float: left;
-    margin-left: 40px;
-}
-
-.col-5 h2{
-    text-align: center;
-}
-
 #logo{
     font-size: 250%;
     letter-spacing: 4px;
-    padding-right: 100px;
+
  
 }
 
 #sign-up{
     list-style-type: none;
     font-size: 100%;
-    letter-spacing: 3px;
-    padding-left: 200px;
-    
+    letter-spacing: 3px;   
+}
+
+.dropdown-toggle:hover{
+    text-decoration: none;
 }
 
 .dropdown:hover .dropdown-menu, .dropdown-item{
-    display:inline-block;
+    display: inline-block;
+    background-color: #2a9bc8;
+    color: #ffff48;
+    font-family: 'Roboto', sans-serif;
+    border-style: none;
 }
 
 /*-------------------------- Hero Image */
