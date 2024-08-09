@@ -13,6 +13,7 @@ header a{
 #about-section{
     background-color: #2a9bc8;
     color: #ffff48;
+    padding-bottom: 45px;
 }
 
 hr{
@@ -21,6 +22,30 @@ hr{
 
 #membership-container hr{
     background-color: #2a9bc8;
+}
+
+.dropdown-item:hover{
+    background-color: #ffff48;
+    color: #2a9bc8;
+    
+}
+
+.dropdown-item:active{
+    background-color: #2a9bc8;
+    color: #ffff48;
+}
+
+.member-box button:hover{
+    background-color: rgba(255, 27, 107, .8);
+}
+
+.member-box button:active{
+    background-color: rgba(255, 27, 107, .6);
+}
+
+#gallery{
+    background-color: #2a9bc8;
+    color: #ffff48;
 }
 
 /*-------------------------- General styles */
@@ -34,7 +59,6 @@ h1{
     text-transform: uppercase;
     font-size: 250%;
 }
-
 
 /*-------------------------- Header */
 
@@ -93,7 +117,7 @@ h2{
     text-decoration: none;
 }
 
-.dropdown:hover .dropdown-menu, .dropdown-item{
+.dropdown:hover .dropdown-menu, .dropdown-menu::after, .dropdown-item{
     display: inline-block;
     background-color: #2a9bc8;
     color: #ffff48;
@@ -196,9 +220,12 @@ h2{
 
 #membership-heading{
     padding-top: 30px;
-    margin-left: 32%;
     color:#2a9bc8;
+}
 
+section #member-header-container{
+    display: flex;
+    justify-content: center;
 }
 
 #membership-container .deals-box1{
@@ -214,6 +241,7 @@ h2{
 .member-section .col{
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 60px;
 }
   
 
@@ -304,14 +332,6 @@ h2{
     border-radius: 5px;
 }
 
-.member-box button:hover{
-    background-color: rgba(255, 27, 107, .8);
-}
-
-.member-box button:active{
-    background-color: rgba(255, 27, 107, .6);
-}
-
 .membership-header{
     color: #2a9bc8;
     margin: 10px 0 0 10px;
@@ -330,6 +350,19 @@ h2{
     padding-left: 10px;
     color: #2a9bc8;
 }
+
+/*-------------------------- Gallery section */
+
+#gallery #gallery-header{
+    display: flex;
+    justify-content: center;
+}
+
+#gallery-header{
+    padding-top: 50px;
+}
+
+
 
 
 
