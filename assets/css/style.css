@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:300,400,500,600');
 
 /*-------------------------- Colors */
 
@@ -48,6 +48,10 @@ hr{
     color: #ffff48;
 }
 
+footer {
+    background-color: #2a9bc8;
+}
+
 /*-------------------------- General styles */
 
 .nav-tabs{
@@ -60,6 +64,10 @@ h1{
     font-size: 250%;
 }
 
+h3{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
 /*-------------------------- Header */
 
 header{
@@ -375,9 +383,8 @@ section #member-header-container{
 /*-------------------------- Opening times */
 
 #info-section{
-    padding-top: 60px;
-    background-color: #2a9bc8;
-    color: #ffff48;
+    background-color:#ffff;
+    color:#2a9bc8;
 }
 
 .date-time {
@@ -392,8 +399,55 @@ section #member-header-container{
 }
 
 .times-title{
+    padding-top: 40px;
     display: flex;
     justify-content: center;
+}
+
+#info-section span{
+    color:#ff1b6b;
+}
+
+.day, .time{
+   font-family: 'Roboto', sans-serif;
+}
+
+.day {
+    font-weight: 300;;
+}
+
+.time {
+    font-weight: 600;
+}
+
+/*-------------------------- Footer section */
+
+
+footer{
+    height: 140px;
+}
+
+#footer-container{
+    padding-top: 27px;
+    color: #ffff48;
+}
+
+.opening-times hr{
+    background-color: #2a9bc8;
+}
+
+#footer-container div{
+    display: flex;
+    justify-content: center;
+}
+
+#footer-container i{
+    font-size: 50px;
+    padding-left: 40px;
+}
+
+.copyright {
+    font-family: 'Roboto', sans-serif;
 }
 
 
