@@ -374,6 +374,29 @@ section #member-header-container{
 
 /*-------------------------- Opening times */
 
+#info-section{
+    padding-top: 60px;
+    background-color: #2a9bc8;
+    color: #ffff48;
+}
+
+.date-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+#info-section .opening-times {
+    padding-left: 30px;
+}
+
+.times-title{
+    display: flex;
+    justify-content: center;
+}
+
+
 
 
 
