@@ -43,6 +43,14 @@ hr{
     background-color: rgba(255, 27, 107, .6);
 }
 
+form button:hover{
+    background-color: rgba(255, 27, 107, .8);
+}
+
+form button:active{
+    background-color: rgba(255, 27, 107, .6);
+}
+
 #gallery{
     background-color: #2a9bc8;
     color: #ffff48;
@@ -448,6 +456,61 @@ footer{
 
 .copyright {
     font-family: 'Roboto', sans-serif;
+}
+
+/*-------------------------- Contact form */
+
+#contact-title{
+   padding: 70px 0 10px 0;
+   color: #2a9bc8;
+}
+
+#contact-page{
+   padding-left: 40px;
+}
+
+#contact-page hr{
+    background-color: #2a9bc8;
+ }
+
+form{
+    padding-top: 30px;
+}
+
+ #contact-page span{
+    color: #ff1b6b;
+ }
+
+label{
+    display: block;
+    color: #2a9bc8;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    margin-bottom: 40px;
+    width: 500px;
+    border-color: #2a9bc8;
+}
+
+textarea {
+    border-width: 2px;
+    border-style: inset;
+    border-color: #2a9bc8;
+}
+
+form button{
+    background-color: #ff1b6b;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding: 10px 22px 10px 22px;
+    margin: 35px 0 35px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
 }
 
 
