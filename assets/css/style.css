@@ -1,27 +1,62 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:300,400,500,600');
-/*-------------------------- Large screens */
+/*-------------------------- Small screens */
 @media screen and (min-width: 450px) and (max-width: 768px){
 
-    #hero-text2 {
+    #hero-text2  {
         visibility: hidden;
     }
+
+    .full-text{
+        display: none;
+    }
+
+    #about-main-text{
+        padding-top: 100px;
+    }
+
+    .photos {
+        column-count: 2;
+    }
+
 }
 /*-------------------------- Medium screens */
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 1200px){
 
-    #hero-text2 {
+    #hero-text2  {
         visibility: visible;
     }
+
+    .full-text{
+        display: none;
+    }
+
+    #about-main-text{
+        padding-top: 100px;
+    }
+
+    .photos {
+        column-count: 2;
+    }
+
 }
 
-/*-------------------------- Small screens */
+/*-------------------------- Large screens */
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 1200px) and (max-width: 2000px){
 
     #hero-text2 {
         visibility: visible;
     }
+
+    #about-main-text{
+        padding-top: 250px;
+    }
+
+    .photos {
+        column-count: 3;
+    }
+
 }
 
 /*-------------------------- Colors */
@@ -30,7 +65,7 @@ header{
     background-color: #2a9bc8;
 }
 
-header a{
+header a {
     color: #ffff48;
 }
 
@@ -120,7 +155,7 @@ header .row{
     text-decoration: none;
 }
 
-h2{
+h2 {
     font-family: 'Oswald', sans-serif;  
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -219,20 +254,32 @@ h2{
 
 /*-------------------------- About section */
 
+#about-section{
+    display: grid;
+}
+
 #about-main-text{
+    display: block;
     text-align:center;
-    padding-right: 50px;
-    padding-top: 250px;
+    padding-right: 10px;
+    min-width: 550px;
 }
 
 #about-section p{
     font-family: 'Roboto', sans-serif;
     font-size: 115%;
+    min-width: 50px;
+}
+
+#about-extra-info{
+    display: block;
+    min-width: 550px;
+
 }
 
 .about-images {
     width: 60%;
-    height: 60%; 
+    height: 60%;
     border-radius: 5px;
 }
 
@@ -403,7 +450,6 @@ section #member-header-container{
 }
 
 .photos {
-    column-count: 3;
     column-gap: 0;
 }
 
