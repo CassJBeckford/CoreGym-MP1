@@ -1,4 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:300,400,500,600');
+/*-------------------------- Large screens */
+@media screen and (min-width: 450px) and (max-width: 768px){
+
+    #hero-text2 {
+        visibility: hidden;
+    }
+}
+/*-------------------------- Medium screens */
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    #hero-text2 {
+        visibility: visible;
+    }
+}
+
+/*-------------------------- Small screens */
+
+@media screen and (min-width: 992px){
+
+    #hero-text2 {
+        visibility: visible;
+    }
+}
 
 /*-------------------------- Colors */
 
@@ -119,8 +143,7 @@ h2{
 #logo{
     font-size: 250%;
     letter-spacing: 4px;
-
- 
+    visibility: visible;
 }
 
 #sign-up{
@@ -159,7 +182,7 @@ h2{
 }
 
 #hero-text2 {
-   
+    
     font-family: Oswald;
     height: 300px;
     width: 300px;
@@ -512,6 +535,10 @@ form button{
     border: none;
     border-radius: 5px;
 }
+
+
+
+
 
 
 
