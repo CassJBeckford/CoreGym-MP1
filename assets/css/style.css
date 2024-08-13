@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:300,400,500,600');
+
+@media screen and (min-width: 1px) and (max-width: 450px){
+
+    .about-images {
+        width: 30%;
+        height: 30%;
+
+    }
+
+}
+
 /*-------------------------- Small screens */
 @media screen and (min-width: 450px) and (max-width: 768px){
 
@@ -17,6 +28,23 @@
     .photos {
         column-count: 2;
     }
+
+    .box{
+        width: 300px;
+    }
+
+    #about-main-text{
+        min-width: 200px;
+        padding-left: -50px;
+     
+    }
+
+    .about-images {
+        width: 60%;
+        height: 60%;
+
+    }
+
 
 }
 /*-------------------------- Medium screens */
@@ -39,6 +67,21 @@
         column-count: 2;
     }
 
+    .box{
+        width: 500px;
+    }
+
+    #about-main-text{
+        min-width: 550px;
+    }
+
+    .about-images {
+        width: 60%;
+        height: 60%;
+
+    }
+
+
 }
 
 /*-------------------------- Large screens */
@@ -55,6 +98,10 @@
 
     .photos {
         column-count: 3;
+    }
+
+    #about-main-text{
+        min-width: 550px;
     }
 
 }
@@ -261,14 +308,13 @@ h2 {
 #about-main-text{
     display: block;
     text-align:center;
-    padding-right: 10px;
-    min-width: 550px;
 }
 
 #about-section p{
     font-family: 'Roboto', sans-serif;
     font-size: 115%;
     min-width: 50px;
+   
 }
 
 #about-extra-info{
@@ -278,8 +324,7 @@ h2 {
 }
 
 .about-images {
-    width: 60%;
-    height: 60%;
+
     border-radius: 5px;
 }
 
