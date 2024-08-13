@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:300,400,500,600');
 
-@media screen and (min-width: 1px) and (max-width: 450px){
-
-    .about-images {
-        width: 30%;
-        height: 30%;
-
-    }
-
-}
-
 /*-------------------------- Small screens */
 @media screen and (min-width: 450px) and (max-width: 768px){
 
@@ -25,26 +15,36 @@
         padding-top: 100px;
     }
 
+    .about, .containter{
+        width: 400px;
+    }
+
     .photos {
         column-count: 2;
     }
 
-    .box{
-        width: 300px;
+    .box {
+        padding-left: 10px;
+        width: 450px; 
     }
 
     #about-main-text{
         min-width: 200px;
-        padding-left: -50px;
-     
     }
 
     .about-images {
-        width: 60%;
-        height: 60%;
+        width: 50%;
+        height: 50%;
 
     }
 
+    .image{
+        display: none;
+    }
+
+    .about{
+        text-align: center;
+    }
 
 }
 /*-------------------------- Medium screens */
@@ -68,7 +68,7 @@
     }
 
     .box{
-        width: 500px;
+        width: 600px;
     }
 
     #about-main-text{
@@ -76,15 +76,28 @@
     }
 
     .about-images {
-        width: 60%;
-        height: 60%;
+        width: 40%;
+        height: 40%;
 
     }
 
 
 }
 
+
 /*-------------------------- Large screens */
+
+
+@media screen and (min-width: 930px) and (max-width: 1200px){
+
+    .about-images {
+        width: 40%;
+        height: 40%;
+
+    }
+
+}
+
 
 @media screen and (min-width: 1200px) and (max-width: 2000px){
 
@@ -102,6 +115,16 @@
 
     #about-main-text{
         min-width: 550px;
+    }
+
+    .about-images {
+        width: 60%;
+        height: 60%;
+
+    }
+
+    .box {
+        width: 800px; 
     }
 
 }
@@ -301,10 +324,6 @@ h2 {
 
 /*-------------------------- About section */
 
-#about-section{
-    display: grid;
-}
-
 #about-main-text{
     display: block;
     text-align:center;
@@ -313,14 +332,13 @@ h2 {
 #about-section p{
     font-family: 'Roboto', sans-serif;
     font-size: 115%;
-    min-width: 50px;
+    
    
 }
 
 #about-extra-info{
     display: block;
     min-width: 550px;
-
 }
 
 .about-images {
@@ -384,7 +402,6 @@ section #member-header-container{
     border-color: white;
     box-shadow: 5px 3px 10px rgba(42, 155, 200, .7);
     padding: 10px 0 0 20px;
-    width: 700px; 
     margin-top: 70px;
 }
   
