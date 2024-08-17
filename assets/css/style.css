@@ -36,6 +36,7 @@
     .opening-times{
         min-width: 485px;
         display: block;
+        padding-left: 5px;
     }
 
     .map{
