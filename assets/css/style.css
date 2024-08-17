@@ -131,10 +131,6 @@ header{
     background-color: #2a9bc8;
 }
 
-header a {
-    color: #ffff48;
-}
-
 #about-section{
     background-color: #2a9bc8;
     color: #ffff48;
@@ -201,10 +197,23 @@ h3{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
+
+a{
+    color: #ffff48;
+    transition: 0.3s;
+}
+
+a:hover{
+color: #ff1b6b;
+}
 /*-------------------------- Header */
 
 header{
     height: 120px;
+}
+
+.gym-name a:hover{
+ color: #ffff48;
 }
 
 #header-section .col{
