@@ -71,15 +71,15 @@ This the website for 'Core Gym', a made up gym located in Leigh-on-Sea, holding 
 
 ## Wireframes
 
-- Main Page Wireframe - [view]()
+- Main Page Wireframe - [view](docs/wireframes/Main.png)
 
-- Contact Page Wireframe - [view]()
+- Contact Page Wireframe - [view](docs/wireframes/Contact.png)
 
-- Tablet Main Page Wireframe - [view]()
+- Tablet Main Page Wireframe - [view](docs/wireframes/Main-tablet.png)
 
-- Tablet Contact Page Wireframe - [view]()
+- Tablet Contact Page Wireframe - [view](docs/wireframes/Contact-tablet.png)
 
-- Mobile Main Page Wireframe - [view]()
+- Mobile Main Page Wireframe - [view](docs/wireframes/Main-mobile.png)
 
-- Mobile Contact Page Wireframe - [view]()
+- Mobile Contact Page Wireframe - [view](docs/wireframes/Contact-mobile.png)
 
