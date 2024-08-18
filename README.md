@@ -33,7 +33,7 @@ This the website for 'Core Gym', a made up gym located in Leigh-on-Sea, holding 
 
       - The main colours used are bright Red, pastel Yellow, pastel Blue and Chalk. 
       - [coolors](https://coolors.co/): Coolors has been used to aid the desision the colour sceme for the project.
-      ### ![Text](https://coolors.co/palette/ff1b6b-0061ff-45caff-ffff6e-ffffff)
+      ### ![Text](docs/wireframes/color-scheme/colors.png)
 
 
 -   #### Typography
