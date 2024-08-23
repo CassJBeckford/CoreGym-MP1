@@ -49,6 +49,10 @@
         min-width: 490px;
     }
 
+    #info-section .opening-times {
+        padding: 0 30px 0 30px;
+    }
+
 }
 /*-------------------------- Medium screens */
 
@@ -87,6 +91,10 @@
         width: 40%;
         height: 40%;
 
+    }
+
+    #info-section .opening-times {
+        padding: 0 0 0 30px;
     }
 
 }
@@ -139,6 +147,10 @@
         min-width: 550px;
     }
 
+    #info-section .opening-times {
+        padding: 0 0 0 30px;
+    }
+
 }
 
 /*-------------------------- Colors */
@@ -186,6 +198,11 @@ form button:hover{
 
 form button:active{
     background-color: rgba(255, 27, 107, .6);
+}
+
+#info-section{
+    background-color:#ffff;
+    color:#2a9bc8;
 }
 
 #gallery{
@@ -536,11 +553,6 @@ section #member-header-container{
 }
 
 /*-------------------------- Opening times */
-
-#info-section{
-    background-color:#ffff;
-    color:#2a9bc8;
-}
 
 .date-time {
     display: flex;
