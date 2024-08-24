@@ -46,27 +46,27 @@ This the website for 'Core Gym', a made up gym located in Leigh-on-Sea, holding 
     
     -  Header video:
 
-    1. [Exercise video]()
+    1. [Exercise video](assets/css/media/200657-913478674_medium.mp4)
 
      -  About us section images:
 
-    1. [Abount us sectionn image 1]()
-    2. [Abount us sectionn image 1]()
+    1. [Abount us sectionn image 1](assets/css/media/woman-6777444_640.jpg)
+    2. [Abount us sectionn image 1](assets/css/media/man-8545861_640.jpg)
 
     - Gallert images:
 
-    1. [couple]()
-    2. [woman2]()
-    3. [bikes]()
-    4. [woman1]()
-    5. [treadmill]()
-    6. [man1]()
-    7. [friends]()
-    8. [weight]()
-    9. [man2]()
-    10. [equipment]()
-    11. [class]()
-    12. [workout]()
+    1. [couple](assets/css/media/couple-7437534_1920.jpg)
+    2. [woman2](assets/css/media/gym-7705106_1920.jpg)
+    3. [bikes](assets/css/media/sports-1962574_1920.jpg)
+    4. [woman1](assets/css/media/gym-3516208_1920.jpg)
+    5. [treadmill](assets/css/media/gym-526995_1920.jpg)
+    6. [man1](assets/css/media/gym-2793007_1920.jpg)
+    7. [friends](assets/css/media/woman-1730325_1920.jpg)
+    8. [weight](assets/css/media/gym-2647292_640.jpg)
+    9. [man2](assets/css/media/fitness-465205_1280.jpg)
+    10. [equipment](assets/css/media/workout-1931107_1280.jpg)
+    11. [class](assets/css/media/fitness-4925664_1280.jpg)
+    12. [workout](assets/css/media/gym-6894893_640.jpg)
 
 
 ## Wireframes
@@ -83,3 +83,12 @@ This the website for 'Core Gym', a made up gym located in Leigh-on-Sea, holding 
 
 - Mobile Contact Page Wireframe - [view](docs/wireframes/Contact-mobile.png)
 
+## Features
+
+## Technologies used 
+
+## Testing
+
+## Deployment 
+
+## Credits
