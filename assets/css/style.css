@@ -184,11 +184,11 @@ hr{
     color: #ffff48;
 }
 
-.member-box button:hover{
+.member-box input:hover{
     background-color: rgba(255, 27, 107, .8);
 }
 
-.member-box button:active{
+.member-box input:active{
     background-color: rgba(255, 27, 107, .6);
 }
 
@@ -485,19 +485,19 @@ section #member-header-container{
 }
 
 .Enquire-1{
-    padding: 112px 0 0 88px;
+    padding: 112px 0 0 50px;
     
 }
 
 .Enquire-2{
-    padding: 55px 0 0 93px;
+    padding: 55px 0 0 50px;
 }
 
 .Enquire-3{
-    padding-left: 95px;
+    padding-left: 50px;
 }
 
-.member-box button{
+.member-box input{
     background-color: #ff1b6b;
     color: #ffff;
     text-transform: uppercase;
@@ -506,8 +506,6 @@ section #member-header-container{
     font-size: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 22px;
-    padding-right: 22px;
     cursor: pointer;
     border: none;
     border-radius: 5px;
