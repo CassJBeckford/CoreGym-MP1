@@ -99,7 +99,6 @@
 
 }
 
-
 /*-------------------------- Large screens */
 
 
@@ -583,6 +582,11 @@ section #member-header-container{
 
 .time {
     font-weight: 600;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
 }
 
 /*-------------------------- Footer section */
