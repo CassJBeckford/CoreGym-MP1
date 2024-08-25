@@ -89,6 +89,28 @@ This the website for 'Core Gym', a made up gym located in Leigh-on-Sea, holding 
 
 ## Testing
 
+## Validator Testing 
+
+HTML
+<details><summary>Results No-issues</summary>
+<img src="docs/validator-tests/contact.html.png">
+<img src="docs/validator-tests/index.html.png">
+
+</details>
+<br>
+
+CSS
+<details><summary>Results No-issues</summary>
+<img src="docs/validator-tests/style.css.png">
+</details>
+<br>
+
+Color
+<details><summary>Results-No issues</summary>
+<img src="">
+</details>
+<br>
+
 ## Deployment 
 
 ## Credits
