@@ -1,5 +1,65 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:300,400,500,600');
 
+/*-------------------------- Extra small screens */
+@media screen and (min-width: 1px) and (max-width: 450px){
+    #hero-text2  {
+        visibility: hidden;
+    }
+
+    .full-text{
+        display: none;
+    }
+
+    #about-main-text{
+        padding-top: 100px;
+        width: 200px;
+    }
+
+    .photos {
+        column-count: 1;
+    }
+
+    .box {
+        padding-left: 10px;
+        width: 350px; 
+    }
+
+    .image{
+        display: none;
+    }
+
+    .about{
+        text-align: center;
+    }
+
+    .opening-times{
+        min-width: 300px;
+        display: block;
+        padding-left: 5px;
+    }
+
+    .map{
+        display: block;
+        min-width: 385px;
+    }
+
+    #about-extra-info{
+        display: block;
+        min-width: 300px;
+    }
+
+    #info-section .opening-times {
+        padding: 0 30px 0 30px;
+    }
+
+
+    #footer-container i{
+        padding-left: 20px;
+        margin-right: 5px;
+    }
+
+}
+
 /*-------------------------- Small screens */
 @media screen and (min-width: 450px) and (max-width: 768px){
 
@@ -53,6 +113,10 @@
         padding: 0 30px 0 30px;
     }
 
+    #footer-container i{
+        padding-left: 20px;
+    }
+
 }
 /*-------------------------- Medium screens */
 
@@ -95,6 +159,10 @@
 
     #info-section .opening-times {
         padding: 0 0 0 30px;
+    }
+
+    #footer-container i{
+        padding-left: 40px;
     }
 
 }
@@ -150,6 +218,12 @@
         padding: 0 0 0 30px;
     }
 
+
+    #footer-container i{
+        padding-left: 40px;
+    }
+
+
 }
 
 /*-------------------------- Colors */
@@ -200,7 +274,7 @@ form button:active{
 }
 
 #info-section{
-    background-color:#ffff;
+    background-color: #ffff;
     color:#2a9bc8;
 }
 
@@ -435,6 +509,7 @@ section #member-header-container{
     box-shadow: 5px 3px 10px rgba(42, 155, 200, .7);
     padding: 10px 0 0 20px;
     margin-top: 70px;
+    background-color: #ffff;
 }
   
 .email {
@@ -481,6 +556,7 @@ section #member-header-container{
     box-shadow: 5px 3px 10px rgba(42, 155, 200, .7);
     height: 500px;
     width: 300px;
+    background-color: #ffff;
 }
 
 .Enquire-1{
@@ -612,7 +688,6 @@ footer{
 
 #footer-container i{
     font-size: 50px;
-    padding-left: 40px;
 }
 
 .copyright {
