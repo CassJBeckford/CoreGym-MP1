@@ -83,13 +83,31 @@ This the website for 'Core Gym', a made up gym located in Leigh-on-Sea, holding 
 
 - Mobile Contact Page Wireframe - [view](docs/wireframes/Contact-mobile.png)
 
-### Features
+## Features
 
-### Technologies used 
+## Technologies used 
 
-### Testing
+## Testing
 
-## Validator Testing 
+### Browser testing 
+
+I have tested this site on ...
+
+### DevTools
+<details><summary>Desktop results. Index.html followed by contact.html</summary>
+<img src="docs/lighthouse/index.html.desktop.png">
+<img src="">
+</details>
+<br>
+
+<details><summary>Mobile results. Index.html followed by contact.html</summary>
+<img src="docs/lighthouse/index.html.mobile.png">
+<img src="">
+</details>
+
+### Improvements
+
+### Validator Testing 
 
 HTML
 <details><summary>Results No-issues</summary>
@@ -111,8 +129,6 @@ Color
 </details>
 <br>
 
-## DevTools
+## Deployment 
 
-### Deployment 
-
-### Credits
+## Credits
