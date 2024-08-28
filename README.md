@@ -89,10 +89,6 @@ This the website for 'Core Gym', a made up gym located in Leigh-on-Sea, holding 
 
 ## Testing
 
-### Browser testing 
-
-I have tested this site on ...
-
 ### DevTools
 <details><summary>Desktop results. Index.html followed by contact.html</summary>
 <img src="docs/lighthouse/index.html.desktop-before.png">
@@ -141,6 +137,36 @@ Color
 <img src="">
 </details>
 <br>
+
+### Further testing 
+
+I have tested this site on ...
+
+### Testing User Experience (UX)
+
+-  #### First Time Customer Goals
+
+    1. As a first-time visitor I want to easily navigate through the website in order identify what services are being offered.
+       1. Upon entering the website, users are greeted by a navigation bar in the header that they're then able to hover over to reveal locations for them to chose from. 
+       2. Just below the header is a clickable link, immediatley informing them on a deal available to them.
+     
+    2. As a first-time visitor, I want to easily find the different pricing /membership options the gym has to offer.
+       1. Using the navigation bar, users can easily direct themselves to the memberships section, which has all the info on deals and membership prices.
+
+    3. As a first-time visitor, I want to gain a sense of what the gym is like through attractive pictures.
+      1. The video playing just below the header allows for an immediate view into the gym 
+      2. The website also features a gallery, allowing a full insight into the gyms scenery and equipment.
+
+-   #### Returning Customer Goals
+
+    1. As a returning visitor, I want multiple ways of getting in contact in case I need to ask for extra information.
+    2. As a returning visitor, I want easy access to social media links as a means of connecting with the rest of the community.
+    3. As a returning visitor, I want readily available open/close times to adjust my plans accordingly.
+
+-   #### Frequent Customer Goals
+
+    1. As a frequent visitor, I want to easily find any deals/offers. 
+    2. As a frequent visitor, I want to easily identify what classes/ facilities are on offer to observe any changes.
 
 ## Deployment 
 
