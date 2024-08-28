@@ -1,6 +1,6 @@
 <h1 align="center">Milestone Project 1 - Core Gym</h1>
 
-### [View The Live Project Here](https://cassjbeckford.github.io/CoreGym-MP1/)
+### [View The Live Project Here]()
 
 ## ![Text]()
 
@@ -95,17 +95,30 @@ I have tested this site on ...
 
 ### DevTools
 <details><summary>Desktop results. Index.html followed by contact.html</summary>
-<img src="docs/lighthouse/index.html.desktop.png">
-<img src="">
+<img src="docs/lighthouse/index.html.desktop-before.png">
+<img src="docs/lighthouse/contact.html.desktop-before.png">
 </details>
 <br>
 
 <details><summary>Mobile results. Index.html followed by contact.html</summary>
 <img src="docs/lighthouse/index.html.mobile.png">
-<img src="">
+<img src="docs/lighthouse/contact.html.mobile-before.png">
 </details>
 
 ### Improvements
+
+A consistent issue throughout seemed to be revolving around accessibility. I targetted all the link elements and gave them discernible, unique and focusable link text. Lighthouse results after improvement:
+
+<details><summary>Desktop results </summary>
+<img src="docs/lighthouse/index.html.desktop-after.png">
+<img src="docs/lighthouse/contact.html.desktop-after.png">
+</details>
+<br>
+
+<details><summary>Mobile results.</summary>
+<img src="docs/lighthouse/index.html.mobile.png">
+<img src="docs/lighthouse/contact.html.mobile-after.png">
+</details>
 
 ### Validator Testing 
 
