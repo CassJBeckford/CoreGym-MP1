@@ -133,6 +133,15 @@ A consistent issue throughout seemed to be revolving around accessibility. I tar
 <img src="docs/lighthouse/index.html.mobile.png">
 <img src="docs/lighthouse/contact.html.mobile-after.png">
 </details>
+<br>
+
+However, I found that when i resized the page for the index.html desktop page the best practices score dropped significantly
+
+<br>
+<details><summary>Desktop results - resized </summary>
+<img src="docs/lighthouse/index.html.desktop-resized.png">
+</details>
+<br>
 
 ### Validator Testing 
 
