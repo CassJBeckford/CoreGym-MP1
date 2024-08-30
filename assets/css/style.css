@@ -25,10 +25,6 @@ html,body
         width: 200px;
     }
 
-    .photos {
-        column-count: 1;
-    }
-
     .box {
         padding-left: 10px;
         width: 350px; 
@@ -90,10 +86,6 @@ html,body
         width: 400px;
     }
 
-    .photos {
-        column-count: 2;
-    }
-
     .box {
         padding-left: 10px;
         width: 450px; 
@@ -146,10 +138,6 @@ html,body
 
     #about-main-text{
         padding-top: 100px;
-    }
-
-    .photos {
-        column-count: 2;
     }
 
     .box{
@@ -205,10 +193,6 @@ html,body
         padding-top: 250px;
     }
 
-    .photos {
-        column-count: 3;
-    }
-
     #about-main-text{
         min-width: 550px;
     }
@@ -243,11 +227,11 @@ html,body
 /*-------------------------- Colors */
 
 header{
-    background-color: #2a9bc8;
+    background-color: #2555BB;
 }
 
 #about-section{
-    background-color: #2a9bc8;
+    background-color: #2555BB;
     color: #ffff48;
     padding-bottom: 45px;
 }
@@ -257,17 +241,17 @@ hr{
 }
 
 #membership-container hr{
-    background-color: #2a9bc8;
+    background-color: #2555BB;
 }
 
 .dropdown-item:hover{
     background-color: #ffff48;
-    color: #2a9bc8;
+    color: #2555BB;
     
 }
 
 .dropdown-item:active{
-    background-color: #2a9bc8;
+    background-color: #2555BB;
     color: #ffff48;
 }
 
@@ -289,16 +273,16 @@ form button:active{
 
 #info-section{
     background-color: #ffff;
-    color:#2a9bc8;
+    color:#2555BB;
 }
 
 #gallery{
-    background-color: #2a9bc8;
+    background-color: #2555BB;
     color: #ffff48;
 }
 
 footer {
-    background-color: #2a9bc8;
+    background-color: #2555BB;
 }
 
 /*-------------------------- General styles */
@@ -388,7 +372,7 @@ h2 {
 
 .dropdown:hover .dropdown-menu, .dropdown-menu::after, .dropdown-item{
     display: inline-block;
-    background-color: #2a9bc8;
+    background-color: #2555BB;
     color: #ffff48;
     font-family: 'Roboto', sans-serif;
     border-style: none;
@@ -419,7 +403,7 @@ h2 {
     border-radius: 150px;
     padding-top: 30px;
     padding-left: 10px;
-    background-color:rgba(42, 155, 200, .7);
+    background-color:rgba(37, 85, 187, .7);
     bottom: 30px;
     right: 120px;
     position: absolute;
@@ -489,7 +473,7 @@ h2 {
 
 #membership-heading{
     padding-top: 30px;
-    color:#2a9bc8;
+    color: #2555BB;
 }
 
 section #member-header-container{
@@ -520,7 +504,7 @@ section #member-header-container{
 
 .box {
     border-color: #ffff;
-    box-shadow: 5px 3px 10px rgba(42, 155, 200, .7);
+    box-shadow: 5px 3px 10px rgba(37, 85, 187, .7);
     padding: 10px 0 0 20px;
     margin-top: 70px;
     background-color: #ffff;
@@ -534,7 +518,7 @@ section #member-header-container{
 
 .pic {
    
-    color: #2a9bc8;
+    color: #2555BB;
     font-size: 40px;
     margin-right: 20px;
     
@@ -548,7 +532,7 @@ section #member-header-container{
     font-size: 150%;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    color: #2a9bc8;
+    color: #2555BB;
 }
 
 .sub-header {
@@ -558,7 +542,7 @@ section #member-header-container{
 
 .end-text {
     font-size: 14px;
-    color: rgba(42, 155, 200, .8);
+    color: rgba(37, 85, 187, .8);
 }
 
 .member-section{
@@ -567,7 +551,7 @@ section #member-header-container{
 
 .member-box{
     border-color: #ffff;
-    box-shadow: 5px 3px 10px rgba(42, 155, 200, .7);
+    box-shadow: 5px 3px 10px rgba(37, 85, 187, .7);
     height: 500px;
     width: 300px;
     background-color: #ffff;
@@ -601,22 +585,22 @@ section #member-header-container{
 }
 
 .membership-header{
-    color: #2a9bc8;
+    color: #2555BB;
     margin: 10px 0 0 10px;
 }
 
 .price{
     padding: 10px 0px 10px 95px;
-    color: #2a9bc8;
+    color: #2555BB;
 }
 
 .price span{
-    color:rgba(42, 155, 200, .5);
+    color:rgba(37, 85, 187, .5);
 }
 
 .member-box p{
     padding-left: 10px;
-    color: #2a9bc8;
+    color: #2555BB;
 }
 
 /*-------------------------- Gallery section */
@@ -629,14 +613,6 @@ section #member-header-container{
 #gallery-header{
     padding: 50px 0 50px 0;
 
-}
-
-.photos {
-    column-gap: 0;
-}
-
-#gallery img{
-    width: 100%;
 }
 
 /*-------------------------- Opening times */
@@ -692,7 +668,7 @@ footer{
 }
 
 .opening-times hr{
-    background-color: #2a9bc8;
+    background-color: #2555BB;
 }
 
 #footer-container div{
@@ -712,7 +688,7 @@ footer{
 
 #contact-title{
    padding: 70px 0 10px 0;
-   color: #2a9bc8;
+   color: #2555BB;
 }
 
 #contact-page{
@@ -720,7 +696,7 @@ footer{
 }
 
 #contact-page hr{
-    background-color: #2a9bc8;
+    background-color: #2555BB;
  }
 
 form{
@@ -733,21 +709,21 @@ form{
 
 label{
     display: block;
-    color: #2a9bc8;
+    color: #2555BB;
     font-family: 'Roboto', sans-serif;
 }
 
 input {
     margin-bottom: 40px;
     width: 80%;
-    border-color: #2a9bc8;
+    border-color: #2555BB;
 }
 
 textarea {
     width: 80%;
     border-width: 2px;
     border-style: inset;
-    border-color: #2a9bc8;
+    border-color: #2555BB;
 }
 
 form button{
