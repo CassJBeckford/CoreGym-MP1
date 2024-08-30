@@ -46,14 +46,14 @@ This the website for 'Core Gym', a made up gym located in Leigh-on-Sea, holding 
     
     -  Header video:
 
-    1. [Exercise video](assets/css/media/200657-913478674_medium.mp4)
+    1. [Exercise video](assets/media/200657-913478674_medium.mp4)
 
      -  About us section images:
 
-    1. [Abount us sectionn image 1](assets/css/media/woman-6777444_640.webp)
-    2. [Abount us sectionn image 1](assets/css/media/man-8545861_640.webp)
+    1. [Abount us section image 1](assets/media/woman-6777444_640.webp)
+    2. [Abount us section image 2](assets/media/man-8545861_640.webp)
 
-    - Gallert images:
+    - Gallery images:
 
     1. [couple](assets/media/couple-7437534_1920(1).webp)
     2. [woman2](assets/media/gym-7705106_1920.webp)
