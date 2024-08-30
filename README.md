@@ -176,31 +176,39 @@ I have tested this site on ...
     1. As a first-time visitor I want to easily navigate through the website in order identify what services are being offered.
        1. Upon entering the website, users are greeted by a navigation bar in the header that they're then able to hover over to reveal locations for them to chose from. 
        2. The about section is close to the top of the page, allowing for a near-immediate insight into what the gym is hoping to provide.
+
        <details><summary>navigation</summary><img src="docs/screenshots/Navigation.png"></details>
        <details><summary>about</summary><img src="docs/screenshots/about-section.png"></details>
 
     2. As a first-time visitor, I want to easily find the different pricing /membership options the gym has to offer.
        1. Using the navigation bar, users can easily direct themselves to the memberships section, which has all the info on deals and membership prices.
+       
        <details><summary>membership</summary><img src="docs/screenshots/Membership.png"></details>
 
     3. As a first-time visitor, I want to gain a sense of what the gym is like through attractive pictures.
        1. The video playing just below the header allows for an immediate view into the gym.
        2. The website also features a gallery, allowing a full insight into the gyms scenery and equipment.
+       
        <details><summary>video</summary><img src="docs/screenshots/hero-image.png"></details>
        <details><summary>gallery</summary><img src="docs/screenshots/gallery.png"></details>
-
+       
 -   #### Returning Customer Goals
 
     1. As a returning visitor, I want multiple ways of getting in contact in case I need to ask for extra information.
        1. Customers can be taken to a contact form where they can get in touch with the gym and even leave a personal message for any specific questions.
        2. Just below the opening times is the gyms main email address and phone number.
+       
        <details><summary>form</summary><img src="docs/screenshots/form.png"></details>
        <details><summary>number/address</summary><img src="docs/screenshots/number-address.png"></details>
+       
     2. As a returning visitor, I want easy access to social media links as a means of connecting with the rest of the community.
        1. Both the main and contact page feature social media links in the footer.
+       
        <details><summary>socials</summary><img src="docs/screenshots/social-media.png"></details>
+       
     3. As a returning visitor, I want readily available open/close times to adjust my plans accordingly.
        1. Clear opening and closing times, Mon - Sun, are features at the bottom of the page above the footer.
+       
        <details><summary>times</summary><img src="docs/screenshots/open-close.png"></details>
 
 -   #### Frequent Customer Goals
@@ -208,11 +216,23 @@ I have tested this site on ...
     1. As a frequent visitor, I want to easily find any deals/offers. 
        1. The memberships section features all available deals. Also the discount code section on the form presents all accessible codes.
        2. Just below the header is a clickable link, immediatley informing them on a deal available to them.
+
        <details><summary>discounts</summary><img src="docs/screenshots/discounts.png"></details>
        <details><summary>header link</summary><img src="docs/screenshots/header-link.png"></details>
+    
     2. As a frequent visitor, I want to easily identify what classes/ facilities are on offer to observe any changes.
        1. The gallery features faciltities specific to Core Gym.
 
 ## Deployment 
+
+### Github Pages
+
+### Forking the Github repository
+
+### Making a local clone 
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/CassJBeckford/CoreGym-MP1)
 
 ## Credits
