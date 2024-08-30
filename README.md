@@ -33,7 +33,7 @@ This the website for 'Core Gym', a made up gym located in Leigh-on-Sea, holding 
 
       - The main colours used are bright Red, pastel Yellow, pastel Blue and Chalk. 
       - [coolors](https://coolors.co/): Coolors has been used to aid the desision the colour sceme for the project.
-      ### ![Text](docs/wireframes/color-scheme/colors.png)
+      ### ![Text](docs/color-scheme/colors.png)
 
 
 -   #### Typography
@@ -50,23 +50,23 @@ This the website for 'Core Gym', a made up gym located in Leigh-on-Sea, holding 
 
      -  About us section images:
 
-    1. [Abount us sectionn image 1](assets/css/media/woman-6777444_640.jpg)
-    2. [Abount us sectionn image 1](assets/css/media/man-8545861_640.jpg)
+    1. [Abount us sectionn image 1](assets/css/media/woman-6777444_640.webp)
+    2. [Abount us sectionn image 1](assets/css/media/man-8545861_640.webp)
 
     - Gallert images:
 
-    1. [couple](assets/media/couple-7437534_1920.jpg)
-    2. [woman2](assets/media/gym-7705106_1920.jpg)
-    3. [bikes](assets/media/sports-1962574_1920.jpg)
-    4. [woman1](assets/media/gym-3516208_1920.jpg)
-    5. [treadmill](assets/media/gym-526995_1920.jpg)
-    6. [man1](assets/media/gym-2793007_1920.jpg)
-    7. [friends](assets/media/woman-1730325_1920.jpg)
-    8. [weight](assets/media/gym-2647292_640.jpg)
-    9. [man2](assets/media/fitness-465205_1280.jpg)
-    10. [equipment](assets/media/workout-1931107_1280.jpg)
-    11. [class](assets/media/fitness-4925664_1280.jpg)
-    12. [workout](assets/media/gym-6894893_640.jpg)
+    1. [couple](assets/media/couple-7437534_1920(1).webp)
+    2. [woman2](assets/media/gym-7705106_1920.webp)
+    3. [bikes](assets/media/sports-1962574_1920.webp)
+    4. [woman1](assets/media/gym-3516208_1920.webp)
+    5. [treadmill](assets/media/gym-526995_1920.webp)
+    6. [man1](assets/media/gym-2793007_1920.webp)
+    7. [friends](assets/media/woman-1730325_1920.webp)
+    8. [weight](assets/media/gym-2647292_640.webp)
+    9. [man2](assets/media/fitness-465205_1280.webp)
+    10. [equipment](assets/media/workout-1931107_1280.webp)
+    11. [class](assets/media/fitness-4925664_1280.webp)
+    12. [workout](assets/media/gym-6894893_640.webp)
 
 
 ### Wireframes
@@ -121,7 +121,7 @@ This the website for 'Core Gym', a made up gym located in Leigh-on-Sea, holding 
 
 ### Improvements
 
-A consistent issue throughout seemed to be revolving around accessibility. I targetted all the link elements and gave them discernible, unique and focusable link text. Lighthouse results after improvement:
+A consistent issue throughout seemed to be revolving around accessibility. I targetted all the link elements and gave them discernible, unique and focusable link text. I also changed all jpeg image documents to webp documents. Lighthouse results after improvement:
 
 <details><summary>Desktop results </summary>
 <img src="docs/lighthouse/index.html.desktop-after.png">
@@ -177,13 +177,13 @@ I have tested this site on ...
        1. Upon entering the website, users are greeted by a navigation bar in the header that they're then able to hover over to reveal locations for them to chose from. 
        2. The about section is close to the top of the page, allowing for a near-immediate insight into what the gym is hoping to provide.
 
-       <details><summary>navigation</summary><img src="docs/screenshots/Navigation.png"></details>
+       <details><summary>navigation</summary><img src="docs/screenshots/navigation.png"></details>
        <details><summary>about</summary><img src="docs/screenshots/about-section.png"></details>
 
     2. As a first-time visitor, I want to easily find the different pricing /membership options the gym has to offer.
        1. Using the navigation bar, users can easily direct themselves to the memberships section, which has all the info on deals and membership prices.
        
-       <details><summary>membership</summary><img src="docs/screenshots/Membership.png"></details>
+       <details><summary>membership</summary><img src="docs/screenshots/membership.png"></details>
 
     3. As a first-time visitor, I want to gain a sense of what the gym is like through attractive pictures.
        1. The video playing just below the header allows for an immediate view into the gym.
