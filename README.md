@@ -1,6 +1,6 @@
 <h1 align="center">Milestone Project 1 - Core Gym</h1>
 
-### [View The Live Project Here]()
+### [View The Live Project Here](https://cassjbeckford.github.io/CoreGym-MP1/)
 
 ## ![Text]()
 
@@ -145,6 +145,8 @@ However, I found that when i resized the page for the index.html desktop page th
 
 ### Validator Testing 
 
+WC3 Markup Validator and W3C CSS Validator were used to validate the Project.
+
 HTML
 <details><summary>Results No-issues</summary>
 <img src="docs/validator-tests/contact.html.png">
@@ -159,15 +161,21 @@ CSS
 </details>
 <br>
 
+The site was also run through the [Webaim contract checker](https://cassjbeckford.github.io/CoreGym-MP1/)
 Color
-<details><summary>Results-No issues</summary>
+<details><summary>Results</summary>
 <img src="">
 </details>
 <br>
 
 ### Further testing 
 
-I have tested this site on ...
+This website was tested on:
+
+- Google Chrome, Firefox, Microsoft Edge and Safari.
+- The website was tested on multiple devices. Laptop, Ipad, Iphone 11 and Iphone 12.
+- Testing has been done to ensure all elements were linking correctly. 
+
 
 ### Testing User Experience (UX)
 
