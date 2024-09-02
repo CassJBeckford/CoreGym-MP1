@@ -370,7 +370,7 @@ h2 {
     text-decoration: none;
 }
 
-.dropdown:hover .dropdown-menu, .dropdown-menu::after, .dropdown-item{
+.dropdown:hover .dropdown-menu, .dropdown-item{
     display: inline-block;
     background-color: #2555BB;
     color: #ffff48;
@@ -401,8 +401,7 @@ h2 {
     height: 300px;
     width: 300px;
     border-radius: 150px;
-    padding-top: 30px;
-    padding-left: 10px;
+    padding: 30px 0 0 10px;
     background-color:rgba(37, 85, 187, .7);
     bottom: 30px;
     right: 120px;
