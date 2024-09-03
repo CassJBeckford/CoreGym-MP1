@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:300,400,500,600');
 
+/*-------------------------- Removing extra whitespace */
+
 html,body {
     width: 100%;
     height: 100%;
