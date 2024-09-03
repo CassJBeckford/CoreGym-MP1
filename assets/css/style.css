@@ -26,7 +26,7 @@ html,body {
 
     .box {
         padding-left: 10px;
-        width: 350px; 
+        width: 300px; 
     }
 
     .image{
@@ -38,7 +38,7 @@ html,body {
     }
 
     #membership-heading{
-        padding-left: 80px;
+        padding-left: 50px;
     }
 
     .opening-times{
@@ -63,7 +63,7 @@ html,body {
 
 
     #footer-container i{
-        padding-left: 20px;
+        padding-left: 10px;
         margin-right: 5px;
     }
 
