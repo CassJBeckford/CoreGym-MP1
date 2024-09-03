@@ -245,11 +245,6 @@ hr{
     color: #2555BB; 
 }
 
-.dropdown-item:active{
-    background-color: #2555BB;
-    color: #ffff48;
-}
-
 .member-box input:hover{
     background-color: rgba(255, 27, 107, .8);
 }
