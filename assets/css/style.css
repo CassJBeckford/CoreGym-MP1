@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:300,400,500,600');
 
-html,body
-{
+html,body {
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -156,7 +155,6 @@ html,body
     .about-images {
         width: 40%;
         height: 40%;
-
     }
 
     #info-section .opening-times {
@@ -177,7 +175,6 @@ html,body
     .about-images {
         width: 40%;
         height: 40%;
-
     }
 
 }
@@ -200,7 +197,6 @@ html,body
     .about-images {
         width: 60%;
         height: 60%;
-
     }
 
     .box {
@@ -246,8 +242,7 @@ hr{
 
 .dropdown-item:hover{
     background-color: #ffff48;
-    color: #2555BB;
-    
+    color: #2555BB; 
 }
 
 .dropdown-item:active{
@@ -327,7 +322,6 @@ header{
 
 header .row{
     padding-top: 10px;
-    
 }
 
 #logo:hover{
@@ -338,13 +332,11 @@ h2 {
     font-family: 'Oswald', sans-serif;  
     letter-spacing: 2px;
     text-transform: uppercase;
-   
 }
 
 #nav-bar, #logo, #sign-up{
     line-height: 75px;
     text-decoration: none;
-
 }
 
 #nav-bar{
@@ -415,8 +407,7 @@ h2 {
 #hero-text1, #hero-text1 a{
     color: #ffff48;
     font-size: 20px;
-    text-align: center;
-   
+    text-align: center;  
 }
 
 #hero-text1 {
@@ -440,12 +431,9 @@ h2 {
 #about-section p{
     font-family: 'Roboto', sans-serif;
     font-size: 115%;
-    
-   
 }
 
 .about-images {
-
     border-radius: 5px;
 }
 
@@ -465,7 +453,6 @@ h2 {
 #about-image-section2 .about-images{
     float: right;
     padding-left: 20px;
-
 }
 
 /*-------------------------- Mmebership section */
@@ -515,12 +502,10 @@ section #member-header-container{
     font-family: Roboto;
 }
 
-.pic {
-   
+.pic {  
     color: #2555BB;
     font-size: 40px;
-    margin-right: 20px;
-    
+    margin-right: 20px; 
 }
 
 .text {
@@ -558,7 +543,6 @@ section #member-header-container{
 
 .Enquire-1{
     padding: 112px 0 0 50px;
-    
 }
 
 .Enquire-2{
@@ -611,7 +595,6 @@ section #member-header-container{
 
 #gallery-header{
     padding: 50px 0 50px 0;
-
 }
 
 /*-------------------------- Opening times */
