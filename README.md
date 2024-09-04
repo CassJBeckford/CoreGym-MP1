@@ -35,7 +35,7 @@ The aim of my website is to attract an audience of people who value being fit an
 
 -  ### Colour Scheme
 
-      - The main colours used are bright Red, pastel Yellow, pastel Blue and Chalk. 
+      - The main colours used are bright and dark Red, pastel Yellow, dark Blue and Chalk. 
       - [coolors](https://coolors.co/): Coolors has been used to aid the desision the colour sceme for the project.
       ### ![Text](docs/color-scheme/colors.png)
 
@@ -74,6 +74,8 @@ The aim of my website is to attract an audience of people who value being fit an
 
 
 ### Wireframes
+
+All wireframes were created using [balsamiq](https://balsamiq.com/)
 
 - Main Page Wireframe - [view](docs/wireframes/Main.png)
 
