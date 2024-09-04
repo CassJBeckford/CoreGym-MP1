@@ -12,6 +12,7 @@ html,body {
 
 
 /*-------------------------- Extra small screens */
+
 @media screen and (min-width: 1px) and (max-width: 450px){
     #hero-text2  {
         visibility: hidden;
@@ -40,7 +41,8 @@ html,body {
     }
 
     #membership-heading{
-        padding-left: 50px;
+        display: inline;
+        text-align: center;
     }
 
     .opening-times{
