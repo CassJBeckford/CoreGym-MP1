@@ -160,7 +160,12 @@ This website was tested on:
 
 ### Known bugs 
 
-- nav bar doesn't close insatntly after it's been used on mobile devices. 
+- Nav bar doesn't close insatntly after it's been used on mobile devices. 
+- Phone number appears as blue before being tapped on mobile devices. 
+
+### Fixed bugs 
+
+- The Hero video only played in fullscreen on ios devices. Fixed by adding a 'playsinline' attribute.
 
 ### Development process
 
@@ -300,7 +305,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ## Code
 
-- initial gallery layout taken from [here](https://mdbootstrap.com/docs/standard/extended/gallery/)
+- Initial gallery layout taken from [here](https://mdbootstrap.com/docs/standard/extended/gallery/)
 - [font awsome](https://fontawesome.com/) for the icons used
 - General coding niggles helped by [W3School](https://www.w3schools.com/)
 - Google map code taken from [here](https://mdbootstrap.com/docs/b4/jquery/javascript/google-maps/) 
