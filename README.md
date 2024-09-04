@@ -298,7 +298,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ## Credits
 
-## Code
+### Code
 
 - Initial gallery layout taken from [here](https://mdbootstrap.com/docs/standard/extended/gallery/)
 - [font awsome](https://fontawesome.com/) for the icons used
@@ -310,6 +310,6 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 
 
-# Acknowledgments
+## Acknowledgments
 
 Special thanks to my Tutor- Miguel & Mentor- Moritz for their help and guidance throughout this project. 
