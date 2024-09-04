@@ -306,10 +306,10 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 - Google map code taken from [here](https://mdbootstrap.com/docs/b4/jquery/javascript/google-maps/) 
 - Bootstrap dropdown code taken for [here](https://getbootstrap.com/docs/4.5/components/dropdowns/)
 - Code institute "love running"- Loosely based my "hero-video" section on their "hero-image" section. 
-- Transformed my images in webp decoments throught the site [pixelied](https://pixelied.com/convert/jpg-converter/jpg-to-webp)
+- Transformed my images into webp documents throught the site [pixelied](https://pixelied.com/convert/jpg-converter/jpg-to-webp)
 
 
 
 # Acknowledgments
 
-Special thanks to my Tutor- Pasquale & Mentor-Jack for their help and guidance throughout this project. As well as staff at the Greenbank Pub for being the site guinea pigs and for their constant feedback throughout the project. 
+Special thanks to my Tutor- Miguel & Mentor- Moritz for their help and guidance throughout this project. 
