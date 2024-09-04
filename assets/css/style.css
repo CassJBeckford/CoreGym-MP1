@@ -277,10 +277,6 @@ footer {
     background-color: #2555BB;
 }
 
-.phone-email {
-    color: #ff1b6b;
-}
-
 /*-------------------------- General styles */
 
 .nav-tabs{
@@ -525,7 +521,7 @@ section #member-header-container{
 
 .sub-header {
     font-size: 100%;
-    color: #ff1b6b;
+    color: #c31854;
 }
 
 .end-text {
@@ -621,7 +617,7 @@ section #member-header-container{
 }
 
 #info-section span{
-    color:#ff1b6b;
+    color: #c31854;
 }
 
 .day, .time{
