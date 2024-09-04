@@ -6,7 +6,11 @@
 
 ## Introduction
 
-This the website for 'Core Gym', a made up gym located in Leigh-on-Sea, holding the function of informing new and exisiting customers on all of the key information (Location, opening times, prices, etc.). This project was created using HTML and CSS, with the intention of allowing customers the ablility to navigate through it while being responsive on multiple screen sizes
+This the website for 'Core Gym', a made up gym located in Leigh-on-Sea, holding the function of informing new and exisiting customers on all of the key information (Location, opening times, prices, etc.). This project was created using HTML and CSS, with the intention of allowing customers the ablility to navigate through it while being responsive on multiple screen sizes.
+
+## Purpose and value 
+
+The aim of my website is to attract an audience of people who value being fit and healthy, and who want to acheive this in a welcoming and inclusive space.
 
 ## User Experience (UX)
 
@@ -42,7 +46,7 @@ This the website for 'Core Gym', a made up gym located in Leigh-on-Sea, holding 
 
 -   #### Imagery
 
-    #### [Pixels](https://www.pexels.com/) : Pixels images have been used to show the interior of the shop and the staff portraits.
+    #### [Pexels](https://www.pexels.com/) : Pixels images have been used to show the interior of the shop and the staff portraits.
     
     -  Header video:
 
@@ -108,65 +112,43 @@ This the website for 'Core Gym', a made up gym located in Leigh-on-Sea, holding 
 ## Testing
 
 ### DevTools
-<details><summary>Desktop results. Index.html followed by contact.html</summary>
-<img src="docs/lighthouse/index.html.desktop-before.png">
-<img src="docs/lighthouse/contact.html.desktop-before.png">
-</details>
-<br>
+Initial desktop results 
 
-<details><summary>Mobile results. Index.html followed by contact.html</summary>
-<img src="docs/lighthouse/index.html.mobile.png">
-<img src="docs/lighthouse/contact.html.mobile-before.png">
-</details>
+![lighthouse desktop](docs/lighthouse/index.html.desktop-before.png)
+![lighthouse desktop](docs/lighthouse/contact.html.desktop-before.png)
+
+Initial mobile results 
+
+![lighthouse mobile](docs/lighthouse/index.html.mobile.png)
+![lighthouse desktop](docs/lighthouse/contact.html.mobile-before.png)
+
 
 ### Improvements
 
 A consistent issue throughout seemed to be revolving around accessibility. I targetted all the link elements and gave them discernible, unique and focusable link text. I also changed all jpeg image documents to webp documents. Lighthouse results after improvement:
 
-<details><summary>Desktop results </summary>
-<img src="docs/lighthouse/index.html.desktop-after.png">
-<img src="docs/lighthouse/contact.html.desktop-after.png">
-</details>
-<br>
+Improved desktop results
 
-<details><summary>Mobile results.</summary>
-<img src="docs/lighthouse/index.html.mobile.png">
-<img src="docs/lighthouse/contact.html.mobile-after.png">
-</details>
-<br>
+![lighthouse desktop](docs/lighthouse/index.html.desktop-after.png)
+![lighthouse desktop](docs/lighthouse/contact.html.desktop-after.png)
 
-However, I found that when i resized the page for the index.html desktop page the best practices score dropped significantly
+Improved mobile results
 
-<br>
-<details><summary>Desktop results - resized </summary>
-<img src="docs/lighthouse/index.html.desktop-resized.png">
-</details>
-<br>
+![lighthouse mobile](docs/lighthouse/index.html.mobile.png)
+![lighthouse mobile](docs/lighthouse/contact.html.mobile-after.png)
 
 ### Validator Testing 
 
 WC3 Markup Validator and W3C CSS Validator were used to validate the Project.
 
 HTML
-<details><summary>Results No-issues</summary>
-<img src="docs/validator-tests/contact.html.png">
-<img src="docs/validator-tests/index.html.png">
-
-</details>
-<br>
+No-errors
+![W3C HTML Validator](docs/validator-tests/contact.html.png)
+![W3C HTML Validator](docs/validator-tests/index.html.png)
 
 CSS
-<details><summary>Results No-issues</summary>
-<img src="docs/validator-tests/style.css.png">
-</details>
-<br>
-
-The site was also run through the [Webaim contract checker](https://cassjbeckford.github.io/CoreGym-MP1/)
-Color
-<details><summary>Results</summary>
-<img src="">
-</details>
-<br>
+No-errors
+![W3C CSS Validator](docs/validator-tests/style.css.png)
 
 ### Further testing 
 
@@ -176,6 +158,16 @@ This website was tested on:
 - The website was tested on multiple devices. Laptop, Ipad, Iphone 11 and Iphone 12.
 - Testing has been done to ensure all elements were linking correctly. 
 
+### Fixed bugs 
+
+### Known bugs 
+
+### Development process
+
+- I started the program and repository by using the [gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template) provided by the Code Insitute.  
+- Then I regularly staged my changes using the command `git add <filename>` and then committed the staged changes to my local repository using `git commit -m 'short descriptive message here'`. 
+- Finally, I would push the commits from my local repository up to the Github repository using the command `git push`.
+- With every push, Github automatically deploys my latest commit from the 'main' branch to the Github pages.
 
 ### Testing User Experience (UX)
 
@@ -185,20 +177,25 @@ This website was tested on:
        1. Upon entering the website, users are greeted by a navigation bar in the header that they're then able to hover over to reveal locations for them to chose from. 
        2. The about section is close to the top of the page, allowing for a near-immediate insight into what the gym is hoping to provide.
 
-       <details><summary>navigation</summary><img src="docs/screenshots/navigation.png"></details>
-       <details><summary>about</summary><img src="docs/screenshots/about-section.png"></details>
+       - navigation
+       ![UX testing](docs/screenshots/navigation.png)
+       - about
+       ![UX testing](docs/screenshots/about-section.png)
 
     2. As a first-time visitor, I want to easily find the different pricing /membership options the gym has to offer.
        1. Using the navigation bar, users can easily direct themselves to the memberships section, which has all the info on deals and membership prices.
        
-       <details><summary>membership</summary><img src="docs/screenshots/membership.png"></details>
+       - membership
+       ![UX testing](docs/screenshots/membership.png)
 
     3. As a first-time visitor, I want to gain a sense of what the gym is like through attractive pictures.
        1. The video playing just below the header allows for an immediate view into the gym.
        2. The website also features a gallery, allowing a full insight into the gyms scenery and equipment.
        
-       <details><summary>video</summary><img src="docs/screenshots/hero-image.png"></details>
-       <details><summary>gallery</summary><img src="docs/screenshots/gallery.png"></details>
+       - video
+       ![UX testing](docs/screenshots/hero-image.png)
+       - gallery
+       ![UX testing](docs/screenshots/gallery.png)
        
 -   #### Returning Customer Goals
 
@@ -206,18 +203,22 @@ This website was tested on:
        1. Customers can be taken to a contact form where they can get in touch with the gym and even leave a personal message for any specific questions.
        2. Just below the opening times is the gyms main email address and phone number.
        
-       <details><summary>form</summary><img src="docs/screenshots/form.png"></details>
-       <details><summary>number/address</summary><img src="docs/screenshots/number-address.png"></details>
+       - form
+       ![UX testing](docs/screenshots/form.png)
+       - number/address
+       ![UX testing](docs/screenshots/number-address.png)
        
     2. As a returning visitor, I want easy access to social media links as a means of connecting with the rest of the community.
        1. Both the main and contact page feature social media links in the footer.
        
-       <details><summary>socials</summary><img src="docs/screenshots/social-media.png"></details>
+       - socials
+       ![UX testing](docs/screenshots/social-media.png)
        
     3. As a returning visitor, I want readily available open/close times to adjust my plans accordingly.
        1. Clear opening and closing times, Mon - Sun, are features at the bottom of the page above the footer.
        
-       <details><summary>times</summary><img src="docs/screenshots/open-close.png"></details>
+       - times
+       ![UX testing](docs/screenshots/open-close.png)
 
 -   #### Frequent Customer Goals
 
@@ -225,8 +226,10 @@ This website was tested on:
        1. The memberships section features all available deals. Also the discount code section on the form presents all accessible codes.
        2. Just below the header is a clickable link, immediatley informing them on a deal available to them.
 
-       <details><summary>discounts</summary><img src="docs/screenshots/discounts.png"></details>
-       <details><summary>header link</summary><img src="docs/screenshots/header-link.png"></details>
+       - discounts
+       ![UX testing](docs/screenshots/discounts.png)
+       - header link
+       ![UX testing](docs/screenshots/header-link.png)
     
     2. As a frequent visitor, I want to easily identify what classes/ facilities are on offer to observe any changes.
        1. The gallery features faciltities specific to Core Gym.
@@ -286,3 +289,27 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/CassJBeckford/CoreGym-MP1)
 
 ## Credits
+
+## Media & Content
+
+- The images that used throughout my site were all sourced from [Pexils](https://www.pexels.com/)
+- 
+- The menu PDFs are sourced from the original live [Greenbank website](https://www.thegreenbankbristol.co.uk/), although this is a fictional site I have all the required permission from the Pub itself.
+- The content in the "welcome/Food/Booking" sections has been biased on the original site- adapted and built upon by myself. 
+
+
+## Code
+
+- initial gallery layout taken from [here](https://mdbootstrap.com/docs/standard/extended/gallery/)
+- [font awsome](https://fontawesome.com/) for the icons used
+- General coding niggles helped by [W3School](https://www.w3schools.com/)
+- Google map code taken from [here](https://mdbootstrap.com/docs/b4/jquery/javascript/google-maps/) 
+- Bootstrap dropdown code taken for [here](https://getbootstrap.com/docs/4.5/components/dropdowns/)
+- Code institute "love running"- Loosely based my "hero-image" section on their "hero-image" section. 
+- Transformed my images in webp decoments throught the site [pixelied](https://pixelied.com/convert/jpg-converter/jpg-to-webp)
+
+
+
+# Acknowledgments
+
+Special thanks to my Tutor- Pasquale & Mentor-Jack for their help and guidance throughout this project. As well as staff at the Greenbank Pub for being the site guinea pigs and for their constant feedback throughout the project. 
