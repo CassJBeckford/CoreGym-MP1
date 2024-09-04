@@ -167,13 +167,6 @@ This website was tested on:
 
 - The Hero video only played in fullscreen on ios devices. Fixed by adding a 'playsinline' attribute.
 
-### Development process
-
-- I started the program and repository by using the [gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template) provided by the Code Insitute.  
-- Then I regularly staged my changes using the command `git add <filename>` and then committed the staged changes to my local repository using `git commit -m 'short descriptive message here'`. 
-- Finally, I would push the commits from my local repository up to the Github repository using the command `git push`.
-- With every push, Github automatically deploys my latest commit from the 'main' branch to the Github pages.
-
 ### Testing User Experience (UX)
 
 -  #### First Time Customer Goals
@@ -241,6 +234,13 @@ This website was tested on:
     
     2. As a frequent visitor, I want to easily identify what classes/ facilities are on offer to observe any changes.
        1. The gallery features faciltities specific to Core Gym.
+
+## Development process
+
+- I started the program and repository by using the [gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template) provided by the Code Insitute.  
+- Then I regularly staged my changes using the command `git add <filename>` and then committed the staged changes to my local repository using `git commit -m 'short descriptive message here'`. 
+- Finally, I would push the commits from my local repository up to the Github repository using the command `git push`.
+- With every push, Github automatically deploys my latest commit from the 'main' branch to the Github pages.
 
 ## Deployment 
 
