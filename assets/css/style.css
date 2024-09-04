@@ -299,7 +299,6 @@ h3{
 }
 
 a{
-    color: #ffff48;
     transition: 0.3s;
 }
 
@@ -310,6 +309,10 @@ color: #ff1b6b;
 
 header{
     height: 120px;
+}
+
+header a{
+    color: #ffff48;
 }
 
 .gym-name a:hover{
@@ -643,6 +646,10 @@ iframe {
 
 footer{
     height: 140px;
+}
+
+footer a{
+    color: #ffff48;
 }
 
 #footer-container{
