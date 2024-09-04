@@ -50,7 +50,7 @@ The aim of my website is to attract an audience of people who value being fit an
     
     -  Header video:
 
-    1. [Exercise video](assets/media/200657-913478674_medium.mp4)
+    1. [Exercise video](assets/media/boxing-video.mp4)
 
      -  About us section images:
 
@@ -160,7 +160,7 @@ This website was tested on:
 
 ### Known bugs 
 
-- Nav bar doesn't close insatntly after it's been used on mobile devices. 
+- Nav bar doesn't close instantly after it's been used on mobile devices. 
 - Phone number appears as blue before being tapped on mobile devices. 
 
 ### Fixed bugs 
@@ -180,10 +180,13 @@ This website was tested on:
 
     1. As a first-time visitor I want to easily navigate through the website in order identify what services are being offered.
        1. Upon entering the website, users are greeted by a navigation bar in the header that they're then able to hover over to reveal locations for them to chose from. 
-       2. The about section is close to the top of the page, allowing for a near-immediate insight into what the gym is hoping to provide.
+       2. The Core gym logo is a clickabke link that remains in the header of every page so the user can easily find their way to the home page.
+       3. The about section is close to the top of the page, allowing for a near-immediate insight into what the gym is hoping to provide.
 
        - navigation
        ![UX testing](docs/screenshots/navigation.png)
+       - logo
+       ![UX testing](docs/screenshots/Logo.png)
        - about
        ![UX testing](docs/screenshots/about-section.png)
 
@@ -295,14 +298,6 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ## Credits
 
-## Media & Content
-
-- The images that used throughout my site were all sourced from [Pexils](https://www.pexels.com/)
-- 
-- The menu PDFs are sourced from the original live [Greenbank website](https://www.thegreenbankbristol.co.uk/), although this is a fictional site I have all the required permission from the Pub itself.
-- The content in the "welcome/Food/Booking" sections has been biased on the original site- adapted and built upon by myself. 
-
-
 ## Code
 
 - Initial gallery layout taken from [here](https://mdbootstrap.com/docs/standard/extended/gallery/)
@@ -310,7 +305,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 - General coding niggles helped by [W3School](https://www.w3schools.com/)
 - Google map code taken from [here](https://mdbootstrap.com/docs/b4/jquery/javascript/google-maps/) 
 - Bootstrap dropdown code taken for [here](https://getbootstrap.com/docs/4.5/components/dropdowns/)
-- Code institute "love running"- Loosely based my "hero-image" section on their "hero-image" section. 
+- Code institute "love running"- Loosely based my "hero-video" section on their "hero-image" section. 
 - Transformed my images in webp decoments throught the site [pixelied](https://pixelied.com/convert/jpg-converter/jpg-to-webp)
 
 
