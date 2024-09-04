@@ -1,4 +1,4 @@
-<h1 align="center">Milestone Project 1 - Core Gym</h1>
+# Milestone Project 1 - Core Gym
 
 ### [View The Live Project Here](https://cassjbeckford.github.io/CoreGym-MP1/)
 
