@@ -2,7 +2,7 @@
 
 ### [View The Live Project Here](https://cassjbeckford.github.io/CoreGym-MP1/)
 
-## ![Text]()
+## ![Text](docs/responsive/screen-types.png)
 
 ## Introduction
 
@@ -158,9 +158,9 @@ This website was tested on:
 - The website was tested on multiple devices. Laptop, Ipad, Iphone 11 and Iphone 12.
 - Testing has been done to ensure all elements were linking correctly. 
 
-### Fixed bugs 
-
 ### Known bugs 
+
+- nav bar doesn't close insatntly after it's been used on mobile devices. 
 
 ### Development process
 
